@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Background styling */
+  body {
+    background: linear-gradient(to right, #ffb6c1, #ffe4e1);
+    height: 150px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container for the quote */
+  #quoteContainer {
+    background: rgba(255, 182, 193, 0.8); /* Pink background with transparency */
+    border: 2px solid #b76e79; /* Rose gold border */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Quote text styling */
+  #quoteElement {
+    font-size: 1.5em;
+    color: #d87181; /* Rose gold color */
+    font-style: italic;
+    border : 1px solid #ebaeb7;
+    padding : 10px;
+    margin : auto 10px;
+  }
+  
+  /* Optional: Adding a nice animation */
+  #quoteElement {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Keyframes for fadeIn animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
